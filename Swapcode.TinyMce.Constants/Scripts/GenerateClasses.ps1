@@ -62,7 +62,7 @@ function Generate-TinymceConstantsClass{
 		$csv | Where-Object { $_.Plugin -ne 'core'}
 	}
 
-	$classHeaderTemplate -f $classDescription,$className,(Get-Date -Format "yyyy-MM-dd hh:mm.ss")
+	$classHeaderTemplate -f $classDescription,$className,(Get-Date -Format "yyyy-MM-dd HH:mm.ss")
 
 	$items | ForEach-Object {
 		if($core){
@@ -80,7 +80,7 @@ function Generate-TinymceConstantsClass{
 function Generate-TinymcePluginNameConstantClass{
 	param($csv)
 
-	$classHeaderTemplate -f "Contains TinyMCE plugin names that has a toolbar and/or menubar button. For full list see: https://www.tinymce.com/docs/plugins/.","PluginNames",(Get-Date -Format "yyyy-MM-dd hh:mm.ss")
+	$classHeaderTemplate -f "Contains TinyMCE plugin names that has a toolbar and/or menubar button. For full list see: https://www.tinymce.com/docs/plugins/.","PluginNames",(Get-Date -Format "yyyy-MM-dd HH:mm.ss")
 
 	$csv | Where-Object {$_.Plugin -ne 'core'} | select -ExpandProperty Plugin -Unique | Sort-Object | ForEach-Object {
 		$coreConstantTemplate -f ('Plugin name: '+$_),(Get-Culture).TextInfo.ToTitleCase($_),$_
