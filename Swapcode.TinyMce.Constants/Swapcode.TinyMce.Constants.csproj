@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
+    <Authors>Antti Alasvuo</Authors>
+    <Company>Private person</Company>
+    <Description>Contains TinyMce v4 menubar and toolbar constants. https://www.tinymce.com/docs/advanced/editor-control-identifiers/.</Description>
+    <PackageTags>tinymce</PackageTags>
+    <PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.0\Swapcode.TinyMce.Constants.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\Swapcode.TinyMce.Constants.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

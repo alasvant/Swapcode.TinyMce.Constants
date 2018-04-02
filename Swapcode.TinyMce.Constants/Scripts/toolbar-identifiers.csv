@@ -1,0 +1,88 @@
+newdocument,core,Creates a new document.
+bold,core,Applies the bold format to the current selection.
+italic,core,Applies the italic format to the current selection.
+underline,core,Applies the underline format to the current selection.
+strikethrough,core,Applies strike though format to the current selection.
+alignleft,core,Left aligns the current block or image.
+aligncenter,core,Left aligns the current block or image.
+alignright,core,Right aligns the current block or image.
+alignjustify,core,Full aligns the current block or image.
+alignnone,core,Removes the alignment of the current block or image.
+styleselect,core,Dropdown list with styles to apply to selection.
+formatselect,core,Dropdown list with block formats to apply to selection.
+fontselect,core,Dropdown list with font families to apply to selection.
+fontsizeselect,core,Dropdown list with font sizes to apply to selection.
+cut,core,Cuts the current selection into clipboard.
+copy,core,Copies the current selection into clipboard.
+paste,core,Pastes the current clipboard into the editor.
+outdent,core,Outdents the current list item or block element.
+indent,core,Indents the current list item or block element.
+blockquote,core,Applies block quote format to the current block level element.
+undo,core,Undoes the last operation.
+redo,core,Redoes the last undoed operation.
+removeformat,core,Removes the formatting from the current selection.
+subscript,core,Applies subscript format to the current selection.
+superscript,core,Applies superscript format to the current selection.
+visualaid,core,Toggles the visual aids for invisible elements.
+insert,core,Groups various insert actions into one button.
+hr,hr,Inserts a horizontal rule into the editor.
+bullist,lists,Formats the current selection as a bullet list.
+numlist,lists,Formats the current selection as a numbered list.
+link,link,Creates/Edits links within the editor.
+unlink,link,Removes links from the current selection.
+openlink,link,Opens the selected link in a new tab.
+image,image,Creates/Edits images within the editor.
+charmap,charmap,Inserts custom characters into the editor.
+pastetext,paste,Toggles plain text pasting mode on/off.
+print,print,Prints the current editor contents.
+preview,preview,Previews the current editor contents.
+anchor,anchor,Creates/Edits anchor elements.
+pagebreak,pagebreak,Inserts a pagebreak into the editor.
+spellchecker,spellchecker,Spellchecks the current editor contents.
+searchreplace,searchreplace,Search and/or Replaces contents within the editor.
+visualblocks,visualblocks,Toggles the visibility of block elements.
+visualchars,visualchars,Toggles the visibility of non breaking character elements.
+code,code,Opens the code dialog
+help,help,Opens the help dialog
+fullscreen,fullscreen,Toggles fullscreen mode
+insertdatetime,insertdatetime,Inserts the current date/time
+media,media,Created/Edits embedded media elements.
+nonbreaking,nonbreaking,Inserts a nonbreaking space into the editor.
+save,save,Saves the current editor contents to a form or ajax call.
+cancel,save,Cancels/Resets the editor contents to it's initial state.
+table,table,Create/Edit table elements.
+tabledelete,table,Delete table.
+tablecellprops,table,Opens the Cell properties dialog.
+tablemergecells,table,Merge the selected cells.
+tablesplitcells,table,Split the current merged cell.
+tableinsertrowbefore,table,Insert a new row before the current one.
+tableinsertrowafter,table,Insert a new row after the current one.
+tabledeleterow,table,Delete the current row row.
+tablerowprops,table,Opens the Row properties dialog.
+tablecutrow,table,Cut the selected rows.
+tablecopyrow,table,Copies the selected rows.
+tablepasterowbefore,table,Paste rows before the current one.
+tablepasterowafter,table,Paste rows after the current one.
+tableinsertcolbefore,table,Inserts a column before the current one.
+tableinsertcolafter,table,Inserts column after the current one.
+tabledeletecol,table,Deletes the selected column.
+rotateleft,imagetools,Rotate the current image counterclockwise.
+rotateright,imagetools,Rotate the current image clockwise.
+flipv,imagetools,Flip the current image vertically.
+fliph,imagetools,Flip the current image horizontally.
+editimage,imagetools,Edit the current image in the image dialog.
+imageoptions,imagetools,Opens the image options dialog.
+fullpage,fullpage,Document properties for the full page.
+ltr,directionality,Sets the directionality of contents to ltr.
+rtl,directionality,Sets the directionality of contents to rtl.
+emoticons,emoticons,Opens the emoticons dialog.
+template,template,Inserts templates into the editor.
+forecolor,textcolor,Applies foreground/text color to selection.
+backcolor,textcolor,Applies background color to selection.
+restoredraft,restoredraft,Restores to the latest auto saved draft.
+insertfile,moxiemanager,Opens the MoxieManager dialog.
+a11ycheck,a11ychecker,Opens the accessibility checker dialog.
+toc,toc,Inserts a Table of Contents into the editor.
+quickimage,inlite,Inserts an image from the local machine.
+quicktable,inlite,Inserts an table 2x2.
+quicklink,inlite,Inserts an link in a quicker way.

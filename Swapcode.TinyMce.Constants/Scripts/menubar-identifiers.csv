@@ -1,0 +1,48 @@
+newdocument,core,Creates a new document.
+undo,core,Undoes the last operation.
+redo,core,Redoes the last undoed operation.
+visualaid,core,Toggles visual aids on/off.
+cut,core,Cuts the current selection into clipboard.
+copy,core,Copies the current selection into clipboard.
+paste,core,Pastes the current clipboard contents into editor.
+selectall,core,Selects all the editor contents.
+bold,core,Applies bold format to current selection.
+italic,core,Applies italic format to current selection.
+underline,core,Applies underline format to current selection.
+strikethrough,core,Applies strikethrough format to current selection.
+subscript,core,Applies subscript format to current selection.
+superscript,core,Applies superscript format to current selection.
+removeformat,core,Removes all formats form the current selection.
+codeformat,core,Applies inline code format to current selection.
+blockformats,core,Applies block formats to current selection.
+align,core,Changes alignment to the current block or selection.
+formats,core,Menu of all available formats.
+link,link,Opens the link dialog.
+openlink,link,Opens the selected link in a new tab.
+image,image,Opens the image dialog.
+charmap,charmap,Opens the charmap dialog.
+pastetext,paste,Toggles paste as plain text on/off.
+print,print,Prints the current document.
+preview,preview,Previews the current document.
+hr,hr,Inserts a horizontal rule into the editor.
+anchor,anchor,Inserts an anchor into the editor.
+pagebreak,pagebreak,Inserts a pagebreak into the editor.
+spellchecker,spellchecker,Toggles the spellchecker on/off.
+searchreplace,searchreplace,Opens the search/replace dialog.
+visualblocks,visualblocks,Toggles block visibility on/off.
+visualchars,visualchars,Toggles visibility of nonbreaking spaces on/off.
+code,code,Opens the code dialog.
+fullscreen,fullscreen,Toggles fullscreen on/off.
+insertdatetime,insertdatetime,Inserts the current date/time into the editor.
+media,media,Opens the media dialog.
+nonbreaking,nonbreaking,Inserts a nonbreaking space into the editor.
+inserttable,table,Insert table grid menu.
+tableprops,table,Opens the table properties dialog.
+deletetable,table,Deletes the current table.
+cell,table,Cell menu item with related controls.
+row,table,Row menu item with related controls.
+column,table,Column menu item with related controls.
+restoredraft,autosave,Restores to the latest auto saved draft.
+fullpage,fullpage,Document properties for the full page.
+toc,toc,Inserts a Table of Contents into the editor.
+help,help,Opens the help dialog
