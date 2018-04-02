@@ -7,6 +7,8 @@
     <Description>Contains TinyMce v4 menubar and toolbar constants. https://www.tinymce.com/docs/advanced/editor-control-identifiers/.</Description>
     <PackageTags>tinymce</PackageTags>
     <PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/alasvant/Swapcode.TinyMce.Constants</PackageProjectUrl>
+    <Copyright>©2018 Antti Alasvuo</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
